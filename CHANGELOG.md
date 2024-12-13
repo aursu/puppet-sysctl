@@ -1,3 +1,7 @@
+#### 2024-12-13 - 1.0.8
+* Replaced legacy facts with newer structured facts
+* Replaced deprecated `hiera_hash` function with `lookup`
+
 #### 2021-06-30 - 1.0.7
 * Add missing owner/group to 99-sysctl.conf that could get inherited.
 * Fix 99-sysctl.conf being removed on RHEL8+.
@@ -66,4 +70,3 @@
 
 #### 2012-07-19 - 0.0.1
 * Initial module release.
-
